@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  docker-stellar-core-horizon:
+    image: docker-stellar-core-horizon
+    build:
+      context: .
+      dockerfile: Dockerfile
